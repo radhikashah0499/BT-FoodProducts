@@ -1,0 +1,74 @@
+.mandala {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./mandala.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #ebbb1e;
+  height: 650px;
+}
+
+.productName {
+  margin-top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 115px;
+  color: #253344;
+  text-align: center;
+}
+
+.bannerPhoto {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 450px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+}
+
+.tag {
+  height: 30px;
+  font-family: "Montserrat";
+  color: #253344;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.category {
+  height: 75px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 62px;
+
+  color: #d13f4d;
+}
+
+.describe {
+  width: 604px;
+
+  font-weight: 300;
+  font-size: 20px;
+
+  color: #253344;
+}
+
+.btn {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 24px;
+  width: 124px;
+  height: 30px;
+  color: white;
+  font-family: 'Montserrat';
+  background: #253344;
+  border-radius: 8px;
+}
