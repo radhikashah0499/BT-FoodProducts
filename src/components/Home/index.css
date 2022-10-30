@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-position-x: center;
   background-color: #ebbb1e;
-  height: 650px;
+  height: 760px;
 }
 
 .productName {
@@ -21,11 +21,12 @@
 }
 
 .bannerPhoto {
+
   margin-top: 10px;
-  margin-left: 10px;
-  height: 450px;
+
+  height: 600px;
   width: 100%;
-  opacity: 0.9;
+  
 }
 
 .product {
@@ -71,4 +72,12 @@
   font-family: 'Montserrat';
   background: #253344;
   border-radius: 8px;
+}
+
+.backk{
+  background-image: url("./back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
 }

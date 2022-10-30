@@ -12,14 +12,14 @@ function Navigation() {
         <div>
         <Link  className="pages" to="/namkeen">Namkeen</Link>
         </div>
-        <div>
+        {/* <div>
         <Link  className="pages" to="/sweets">Sweets</Link>
+        </div> */}
+        <div>
+        <Link  className="pages" to="/papadMangodi">Papad and Mangodi</Link>
         </div>
         <div>
-        <Link  className="pages" to="/namkeen">Papad and Mangodi</Link>
-        </div>
-        <div>
-        <Link  className="pages" to="/namkeen">Tea and Spices</Link>
+        <Link  className="pages" to="/teaSpices">Tea and Spices</Link>
         </div>
         
         <div>
