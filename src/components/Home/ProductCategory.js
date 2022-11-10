@@ -1,6 +1,16 @@
-import React from "react";
+import React  from "react";
+import { useNavigate } from "react-router-dom";
 import "./index.css";
-function ProductCategory({ tagLine, category, description, direction, image }) {
+
+
+function ProductCategory({ tagLine, category, description, direction, image,link }) {
+
+const navigate = useNavigate();
+
+  function handleOnClick(){
+     navigate(link);
+  }
+
   return (
     <div className="product" style={{ marginTop: "50px", marginLeft: "150px" }}>
       {direction === "left" ? (
@@ -14,7 +24,7 @@ function ProductCategory({ tagLine, category, description, direction, image }) {
             <div className="tag">{tagLine}</div>
             <div className="category">{category}</div>
             <div className="describe">{description}</div>
-            <button className="btn">know more</button>
+            <button className="btn" onClick={handleOnClick}>know more</button>
           </div>
           <div className="image" style={{ justifyContent: "flex-end" }}>
             <img
@@ -40,7 +50,7 @@ function ProductCategory({ tagLine, category, description, direction, image }) {
             <div className="tag">{tagLine}</div>
             <div className="category">{category}</div>
             <div className="describe">{description}</div>
-            <button className="btn">know more</button>
+            <button className="btn" onClick={handleOnClick}>know more</button>
           </div>
         </div>
       )}

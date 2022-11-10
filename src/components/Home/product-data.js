@@ -1,6 +1,7 @@
 import pic1 from "./photo2.jpeg";
 import spices from './spices.jpg';
 import papad from './papad.jpg';
+import soanPapdi from './soanPapdi.jpeg';
 
 export const ProductDetails = {
   tagLine: [
@@ -16,6 +17,6 @@ export const ProductDetails = {
     "Rajasthans best papad and magodi hereee",
     "kjsdhcjksdhc",
   ],
-  link: ["/namkeen", "/sweets", "/namkeen", "/namkeen"],
-  image:[pic1, pic1, papad,spices],
+  link: ["/namkeen", "/sweets", "/papadMangodi", "/teaSpices"],
+  image:[pic1, soanPapdi, papad,spices],
 };
