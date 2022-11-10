@@ -50,7 +50,7 @@ const navigate = useNavigate();
             <div className="tag">{tagLine}</div>
             <div className="category">{category}</div>
             <div className="describe">{description}</div>
-            <button className="btn" >know more</button>
+            <button className="btn" onClick={handleOnClick}>know more</button>
           </div>
         </div>
       )}
