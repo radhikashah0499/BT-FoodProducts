@@ -1,20 +1,20 @@
 import React from 'react';
 import Card from '../ItemBox/card';
 import {Cards, FlexRow} from '../ItemBox/styles';
-import Mixture from './mixture.jpg';
-import AlooBhujia from './bhujia.jpg';
-import Moongfali from './moongfali.jpg';
-import RadheBhujia from './radheBhujia.jpg';
-import Tasty from './tasty.jpg';
-import ZeroNamkeen from './zeroNamkeen.jpg';
-import RadheMixture from './radheMixture.jpg';
-import ChanaDal from './chanaDal.jpg';
-import Bhujia from './bhuji.jpg';
-import Boondi from './sadaBoondi.jpg';
-import MasalaBoondi from './masalaBoondi.jpg';
-import PudinaBoondi from './pudinaBoondi.jpg';
-import Katori from './katori.jpg';
-import Pasta from './pasta.jpg';
+import Mixture from '../../assests/images/namkeens/mixture.jpg';
+import AlooBhujia from '../../assests/images/namkeens/bhujia.jpg';
+import Moongfali from '../../assests/images/namkeens/moongfali.jpg';
+import RadheBhujia from '../../assests/images/namkeens/radheBhujia.jpg';
+import Tasty from '../../assests/images/namkeens/tasty.jpg';
+import ZeroNamkeen from '../../assests/images/namkeens/zeroNamkeen.jpg';
+import RadheMixture from '../../assests/images/namkeens/radheMixture.jpg';
+import ChanaDal from '../../assests/images/namkeens/chanaDal.jpg';
+import Bhujia from '../../assests/images/namkeens/bhuji.jpg';
+import Boondi from '../../assests/images/namkeens/sadaBoondi.jpg';
+import MasalaBoondi from '../../assests/images/namkeens/masalaBoondi.jpg';
+import PudinaBoondi from '../../assests/images/namkeens/pudinaBoondi.jpg';
+import Katori from '../../assests/images/namkeens/katori.jpg';
+import Pasta from '../../assests/images/namkeens/pasta.jpg';
 
 export default function Namkeen(){
     return(

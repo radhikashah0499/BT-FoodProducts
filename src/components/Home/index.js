@@ -9,7 +9,6 @@ import jiomart from "../../assests/images/logos/jiomart.png";
 import meesho from "../../assests/images/logos/meesho.png";
 import mirchi from "../../assests/images/logos/mirchi.png";
 import ezmall from "../../assests/images/logos/ezmall.jpeg";
-import back from './back1.jpg';
 import Brands from "./Brands";
 export default function Home() {
   return (
@@ -132,3 +131,5 @@ export default function Home() {
     </div>
   );
 }
+
+//add loading=eager on img tag

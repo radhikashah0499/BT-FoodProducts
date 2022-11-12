@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./mandala.png");
+  background-image: url("./images/mandala.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-color: #ebbb1e;
@@ -75,7 +75,7 @@
 }
 
 .backk{
-  background-image: url("./back2.jpg");
+  background-image: url("./images/back2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 

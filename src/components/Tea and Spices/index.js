@@ -1,10 +1,10 @@
 import React from "react";
 import Card from "../ItemBox/card";
 import { Cards, FlexRow } from "../ItemBox/styles";
-import Chai from "./chai.jpg";
-import Haldi from "./haldi.jpg";
-import Mirchi from "./mirchi.jpg";
-import daniya from "./daniya.jpg";
+import Chai from "./images/chai.jpg";
+import Haldi from "./images/haldi.jpg";
+import Mirchi from "./images/mirchi.jpg";
+import daniya from "./images/daniya.jpg";
 
 export default function TeaSpices() {
   return (

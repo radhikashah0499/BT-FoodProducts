@@ -2,8 +2,8 @@ import React from 'react';
 import Card from "../ItemBox/card";
 import { Cards, FlexRow } from "../ItemBox/styles";
 
-import Mangodi from './mangodi.jpg';
-import Papad from './papadd.jpg';
+import Mangodi from './images/mangodi.jpg';
+import Papad from './images/papadd.jpg';
 export default function PapadMangodi(){
 
     return (
