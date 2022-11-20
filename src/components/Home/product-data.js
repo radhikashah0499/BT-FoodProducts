@@ -1,7 +1,7 @@
-import pic1 from "./photo2.jpeg";
-import spices from './spices.jpg';
-import papad from './papad.jpg';
-import soanPapdi from './soanPapdi.jpeg';
+import pic1 from "./images/photo2.jpeg";
+import spices from './images/spices.jpg';
+import papad from './images/papad.jpg';
+import soanPapdi from './images/soanPapdi.jpeg';
 
 export const ProductDetails = {
   tagLine: [

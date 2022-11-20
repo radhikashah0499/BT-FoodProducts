@@ -39,6 +39,7 @@ const navigate = useNavigate();
         >
           <div className="image" style={{ justifyContent: "flex-start" }}>
             <img
+              loading="eager"
               src={image}
               style={{ height: "300px", width: "300px", borderRadius: "10px" }}
             />
